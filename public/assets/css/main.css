@@ -1,0 +1,660 @@
+html {
+	height: 100%;
+	padding: 0;
+}
+
+body {
+	background: #456145;
+	background-image: url("../images/zenbg-1.png"), url("../images/zenbg-2.png");
+	background-repeat: repeat-x, repeat;
+	padding: 0;
+	height: 100%;
+}
+
+main {
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+
+
+/*/////  GENERAL Header & Footer  /////*/
+header {
+	background: #F8FFFB;
+	color: #fff;
+	width: 100%;
+	padding: 0;
+}
+
+#nameDiv {
+	padding-left: 0;
+	text-align: left;
+}
+
+#name {
+	height: 70px;
+	font-family: 'Archivo Narrow', sans-serif;
+	text-align: left;
+	width: 100%;
+	color: #fff;
+	line-height: 70px;
+	font-size: 35px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-decoration: none;
+	padding-left: 0;
+	background: #456145;
+	background-image: url("../images/zenbg-1.png"), url("../images/zenbg-2.png");
+	background-repeat: repeat-x, repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#navDiv {
+	position: relative;
+	margin-top: 2%;
+	height: 43.6px;
+}
+
+#tagline {
+	height: 40px;
+	padding: 1%;
+	text-align: justify;
+}
+
+#tagline {
+	height: auto;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 900;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 21px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	background-image: url("../images/zenbg-1.png"), url("../images/zenbg-2.png");
+	background-repeat: repeat-x, repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+li>a {
+	text-decoration: none;
+}
+
+footer {
+	font-family: 'Poiret One', cursive;
+	font-weight: 700;
+	background: #666;
+	color: #ccc;
+	padding-top: 1%;
+	clear: both;
+	border-top: 2px solid #5A947B;
+	font-size: 14px;
+	text-align: right;
+	position: fixed;
+	bottom: 0px;
+	height: 6%;
+	margin: 2% 0px 0px 0px;
+	width: 100%;
+}
+
+#goinToSpace {}
+
+/*///// Under Construction Modal ///*/
+
+.modal {
+	display: block;
+	position: fixed;
+	/* Stay in place */
+	z-index: 100;
+	/* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: hidden !important;
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+.modal-close {
+	height: 30px;
+}
+
+#closeIcon {
+	cursor: pointer;
+	width: 25px;
+	float: right;
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: 10% auto;
+	/* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 600px;
+	/* Could be more or less, depending on screen size */
+}
+
+.modal-body {
+	padding-top: 0;
+}
+
+.modal-content h3 {
+	margin-bottom: 20px;
+}
+
+.modal-content h3:nth-of-type(2) {
+	text-align: right;
+}
+
+.modal-content p {
+	width: 90%;
+	margin: auto;
+	color: #555555;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.modal-footer {
+	width: 80%;
+	margin: auto;
+	padding-top: 30px;
+	border-top: 1px solid #e5e5e5;
+}
+
+#DoNotShowAgain {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 26px;
+	color: #fff;
+	font-weight: 100;
+	background-color: #88C0FF;
+	border-radius: 3px;
+}
+
+/*/////  INDEX/Landing Page  /////*/
+#nameIndexDiv {
+	margin: auto;
+	width: 100%;
+	height: 100px;
+}
+
+#nameIndex {
+	font-size: 80px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: #fff;
+}
+
+#comingSoon h2 {
+	/*	border-bottom: 2px solid #eee;*/
+	padding-bottom: 20px;
+	text-align: center;
+	width: 100%;
+	line-height: 40px;
+	font-weight: 900;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: #F8FFFB;
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	background-image: url("../images/zenbg-1.png"), url("../images/zenbg-2.png");
+	background-repeat: repeat-x, repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+div.col-xs-3 {
+	margin-top: 4%;
+	text-align: center;
+}
+
+.techIcon {
+	color: #F8FFFB;
+	font-size: 65px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.techIcon2 {
+	color: #F8FFFB;
+	font-size: 65px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+span.label {
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+#comingSoon {
+	margin-top: 2%;
+}
+
+#comingSoonIcons {
+	margin-top: -25px;
+}
+
+#technologiesComing {
+	margin-bottom: 5%;
+}
+
+
+
+
+/*/////  ABOUT ME PAGE  /////*/
+.main-section {
+	background: #F8FFFB;
+	border: 1px solid #ddd;
+	margin-bottom: 4%;
+	padding-bottom: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+#topBio .col-xs-3 {
+	overflow: visible;
+	margin-bottom: -7em;
+	margin-top: 0;
+	text-align: left;
+}
+
+#work h3 {
+	text-align: center;
+}
+
+#mentalM {
+	text-align: center;
+}
+
+#genWV h3 {
+	text-align: center;
+}
+
+#genWV p {
+	text-align: left;
+}
+
+#myPic {
+	border-radius: 100%;
+	max-width: 230px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#myPicRow {
+	margin-top: -7em;
+	height: 100px;
+	overflow: visible;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#bottomBio {
+	clear: both;
+}
+
+#bottomBio .col-xs-3 {
+	margin-top: -5em;
+}
+
+#connect {}
+
+#dogPic {}
+
+.myPicBuffer {
+	height: 100px;
+}
+
+.col-xs-4 h3 {
+	text-align: center;
+}
+
+
+
+
+/*/////  sidebar  /////*/
+#sidebar {
+	background-color: #F8FFFB;
+	border: 1px solid #ddd;
+}
+
+#sidebar h2 {
+	margin-top: 0;
+	text-align: center;
+	width: 100%;
+	line-height: 40px;
+	font-weight: 900;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: #F8FFFB;
+	font-size: 26px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	background-image: url("../images/zenbg-1.png"), url("../images/zenbg-2.png");
+	background-repeat: repeat-x, repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#connect {
+	height: auto;
+	margin-top: 1vw;
+}
+
+#SocialImages {
+	text-decoration: none;
+	color: #dddddd;
+	height: auto;
+	text-align: center;
+}
+
+#SocialImages:after {
+	content: '';
+	/*display: inline-block;*/
+	width: 100%;
+}
+
+i[class^="fa"]:before {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.socialIconLI {
+	text-decoration: none;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	color: #666666;
+}
+
+.socialIconLI:nth-child(2n) {
+	margin: 0 10% 0 10%;
+}
+
+.socialIcons {
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	color: #666666;
+}
+
+.socialIcons>i {
+	width: 40px;
+	height: 40px;
+	text-decoration: none;
+	color: #666666;
+}
+
+.socialIcons>i:link {
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	color: #666666;
+}
+
+.socialIcons>i:visited {
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	color: #666666;
+}
+
+.socialIcons>i:hover {
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	color: #4aaaa5;
+}
+
+
+
+
+/*///// CONTACT MODAL /////*/
+
+
+#sendEmail {
+	background-color: #4aaaa5;
+}
+
+#sendEmail:click {
+	background-color: #dddddd;
+}
+
+
+/*/////  PORTFOLIO PAGE  /////*/
+h2 {
+	text-align: center;
+	width: 100%;
+	line-height: 40px;
+	font-weight: 900;
+	background-color: #F8FFFB;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: #F8FFFB;
+	font-size: 26px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	background-image: url("../images/zenbg-1.png"), url("../images/zenbg-2.png");
+	background-repeat: repeat-x, repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.work {
+	margin: 0px 0;
+}
+
+.work img {
+	max-width: 100%;
+	height: 100%;
+	max-height: 175px;
+	opacity: .8;
+	border: solid 2px white;
+	border-radius: 5%;
+}
+
+.work h3 {
+	border-bottom: 0;
+	text-align: center;
+	position: relative;
+	bottom: 20px;
+	line-height: 30px;
+	font-weight: 600;
+	background-color: #F8FFFB;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: #F8FFFB;
+	font-size: 26px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	background-image: url("../images/zenbg-1.png"), url("../images/zenbg-2.png");
+	background-repeat: repeat-x, repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.work img:hover {
+	text-decoration: none;
+	border: solid 2px #4aaaa5;
+}
+
+#infoCont {
+	margin-top: 0px;
+	background-color: #F8FFFB;
+	border: 1px solid #ddd;
+}
+
+#projectTitle {
+	margin-top: 2vh;
+	margin-bottom: 0px;
+	text-align: center;
+	vertical-align: middle;
+	bottom: 5px;
+	font-weight: 600;
+	height: 6vh;
+	background-color: #F8FFFB;
+	font-size: 26px;
+	margin-bottom: 1vh;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+
+#projectTitle>h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	/*	vertical-align: middle;*/
+	/*	position: relative;*/
+	/*	bottom: 1px;*/
+	/*	line-height: 30px;*/
+	font-weight: 600;
+	background-color: #F8FFFB;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: #F8FFFB;
+	font-size: 26px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	background-image: url("../images/zenbg-1.png"), url("../images/zenbg-2.png");
+	background-repeat: repeat-x, repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#projectInfo {
+	padding: 0 1vw 1vw 1vw;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: #3A403B;
+	font-size: 18px;
+	min-height: 35vh;
+	height: auto;
+	margin-top: 0;
+	background-color: #F8FFFB;
+	border-radius: 10%;
+}
+
+
+
+/*.auth-image {
+	width: 200px;
+	height: auto;
+	margin-top: 10px;
+	float: left;
+	margin-right: 25px;
+}*/
+
+/*---Media Queries--*/
+/*
+@media only screen and (max-width: 980px) {
+	.container {
+		padding: 0 20px;
+		max-width: 768px;
+	}
+	main.container {
+		padding-top: 130px;
+	}
+	.main-section {
+		max-width: 420px;
+	}
+	.work {
+		width: 100%;
+	}
+	#myPic {
+		width: 100%;
+		margin-bottom: 20px;
+		clear: both;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.main-section,
+	.sidebar {
+		max-width: 100%;
+	}
+	main {
+		overflow: auto;
+	}
+	.work {
+		width: 47%;
+		margin-bottom: 10px;
+	}
+	.work:nth-child(even){
+		margin-right: 0;
+	}
+	.work:nth-child(odd) {
+		float: right;
+	}
+	#myPic {
+		width: 50%;
+	}
+	.sidebar {
+		margin-bottom: 40px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	#masthead {
+		position: static;
+		margin-bottom: 20px;
+	}
+	header .container {
+		padding: 0;
+	}
+	main.container {
+		padding-top: 0;
+	}
+	#name,
+	.work,
+	#myPic {
+		width: 100%;
+	}
+	nav {
+		text-align: center;
+		width: 100%;
+		margin: 15px 0;
+	}
+	nav a {
+		width: 30%;
+		padding-left: 0;
+		margin-left: 0;
+	}
+}
+*/
+
+/*
+///// Previous Contact Page CSS /////
+#contact-form ul {
+	margin-bottom: 20px;
+}
+#contact-form li {
+	margin-bottom: 10px;
+}
+label,
+input[type=text],
+input[type=email],
+textarea {
+	display: block;
+	width: 100%;
+}
+input[type=text],
+input[type=email],
+textarea {
+	height: 35px;
+	border: 1px solid #ddd;
+	padding: 0 10px;
+	font-size: 14px;
+}
+textarea {
+	height: 200px;
+}
+input[type=submit] {
+	background: #4aaaa5;
+	border: 0 none;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 30px;
+	cursor: pointer;
+}*/
