@@ -17,6 +17,27 @@ main {
 }
 
 
+/*///// Intro modal /////*/
+
+#ViewMyWork {
+  border: solid 2px #F8FFFB;
+  color: #F8FFFB;
+}
+
+#ModalArrow {
+  width: 200px;
+  height: 100px;
+  color: #F8FFFB;
+}
+
+.rotateimg180 {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
 /*/////  GENERAL Header & Footer  /////*/
 header {
   background: #F8FFFB;
@@ -170,6 +191,7 @@ i[class^="fa"]:before {
 .main-section {
   background: #F8FFFB;
   border: 1px solid #ddd;
+  border-radius: 3px;
   margin-bottom: 4%;
   padding-bottom: 15px;
   padding-right: 20px;
@@ -185,7 +207,7 @@ h2 {
   background-color: #F8FFFB;
   font-family: 'Archivo Narrow', sans-serif;
   color: #F8FFFB;
-  font-size: 26px;
+  font-size: 2em;
   letter-spacing: 3px;
   text-decoration: none;
   background-image: url("../images/zenbg-1.png"), url("../images/zenbg-2.png");
@@ -198,6 +220,7 @@ h2 {
 #sidebar {
   background-color: #F8FFFB;
   border: 1px solid #ddd;
+  border-radius: 3px;
 }
 
 #sidebar h2 {
