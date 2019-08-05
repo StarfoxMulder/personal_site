@@ -1,7 +1,9 @@
 $(document).ready(function () {
 
-  var popupHtml = '';
-  $("body").append(popupHtml);
+  // var popupHtml = '';
+  // $("body").append(popupHtml);
+
+  $("#myModal").modal()
 
   $("#closeIcon").click(function () {
     $("#myModal").css("display", "none");

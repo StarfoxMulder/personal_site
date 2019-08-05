@@ -19,14 +19,25 @@ main {
 
 /*///// Intro modal /////*/
 
-#ViewMyWork {
+.modal-body #ViewMyWork {
   border: solid 2px #F8FFFB;
   color: #F8FFFB;
 }
 
+/* possible way to make intro modal 100% of viewport
+    padding: 0 10px;
+    color: #fff;
+    height: calc(100vh + 53px);
+*/
+
+#ViewMyWork {
+  font-size: 3em;
+  color: #F8FFFB;
+  background-color: transparent;
+}
+
 #ModalArrow {
-  width: 200px;
-  height: 100px;
+  font-size: 4em;
   color: #F8FFFB;
 }
 
