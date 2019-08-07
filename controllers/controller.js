@@ -7,6 +7,9 @@ var path = require('path');
 router.get('/', function (req, res) {
   res.render('portfolio2');
 });
+router.get('/3', function (req, res) {
+  res.render('portfolio3');
+});
 
 /*
 router.get('/tech', function (req, res) {
