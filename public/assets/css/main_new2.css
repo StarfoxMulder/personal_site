@@ -52,6 +52,21 @@ body {
   border: none;
 }
 
+#ViewMyWork:hover {
+  background-color: #4989BA;
+}
+
+#ViewMyWork:hover .fa-arrow-right {
+  transform: rotate(90deg);
+  /* transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  transition-delay: 0.3s; */
+}
+
+.fa-arrow-right {
+  transition: transform .3s;
+}
+
 /* possible way to make intro modal 100% of viewport
     padding: 0 10px;
     color: #fff;
@@ -64,10 +79,11 @@ body {
   background-color: transparent;
   border: solid 2px #fff;
   margin: auto;
+  text-decoration: none;
 }
 
 #old-modalArrow {
-  font-size: 1em;
+  font-size: 0.7em;
   color: #F8FFFB;
   vertical-align: middle;
 }
@@ -77,16 +93,55 @@ body {
 }
 
 /*/////  PORTFOLIO PAGE  /////*/
-#portfolio {
-  font-family: "Archivo Narrow", sans-serif;
+#portCont {
+  padding: 0;
 }
 
-.work-section {
+#portfolio {
+  font-family: "Archivo Narrow", sans-serif;
+  color: #fff;
+}
+
+#portfolio h2 {
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#work-section {
   background-color: #fff;
+  padding: 0;
+}
+
+.projItem {
+  /* display: inline-block; */
+  /* Trying to position the project title - might need to remove if impacts other positioning */
 }
 
 .projItem img {
-  max-width: 400px;
+  width: 100%;
+}
+
+.projTitle {
+  margin-top: -75px;
+  margin-bottom: 41px;
+  text-align: center;
+}
+
+.projTitle span {
+  background-color: #4989BA;
+  color: #fff;
+  border: solid 3px #fff;
+  margin: auto;
+  padding: 0 8px;
+  /* transition: transform .3s; */
+}
+
+.projTitle span:hover {
+  background-color: #44C7BA;
+  cursor: pointer;
+  /* transition: transform .3s;
+  transform: scale(1.1); */
 }
 
 
@@ -112,6 +167,16 @@ footer {
   width: 100%;
 }
 
+/*//// Media Queries /////*/
+@media (min-width: 768px) {
+  .projItem:nth-of-type(odd) {
+    padding-right: 0;
+  }
+
+  .projItem:nth-of-type(even) {
+    padding-left: 0;
+  }
+}
 
 /*//// social icons /////*/
 #SocialImages {
