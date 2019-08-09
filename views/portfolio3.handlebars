@@ -23,13 +23,18 @@
     </section>
   </section>
   <section class="container" id="portCont">
+    <section class="row justify-content-center" id="aboutMe">
+      <div class="col-12">
+        <h2>About</h2>
+      </div>
+    </section>
     <section class="row justify-content-center" id="portfolio">
       <div class="col-12">
         <h2>Portfolio</h2>
       </div>
       <div class="col-12 no-gutters" id="work-section">
         <div class="row projRow">
-          <div class="projItem col-12 col-md-6 ">
+          <div class="projItem col-12 col-md-6 " data-title="JP Development" data-tech="Python   Django   PostgreSQL" data-about="Fully functional website for a fictional real estate business.  Potential buyers can search or filter listings based on a number of criteria, make inquiries directly about a particular property, and make an account to check on the status of thier inquiries. The company receives an email about each inquiery, realtors can see inqueries about their properties, and the admin panel allows for full control over the whole process." data-url="http://judepdevelopment.com/">
             <img class="placeholder" src="assets/images/L2.jpg">
             <h3 class="projTitle">
               <span>JP Development</span>
@@ -63,4 +68,19 @@
       </div>
     </section>
   </section>
+
+  <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <p class="projTitleModal">Project Title</p>
+          <p class="projTechModal">built using these</p>
+          <p class="projAboutModal">one or two sentences about this project</p>
+        </div>
+        <div class="modal-footer">
+          <a id="projVisitModal" href="" target="_blank">visit project</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </main>

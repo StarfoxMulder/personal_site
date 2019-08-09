@@ -92,6 +92,16 @@ body {
   font-family: 'Archivo Narrow', sans-serif;
 }
 
+/*/////  ABOUT PAGE  /////*/
+#aboutMe {
+  font-family: "Archivo Narrow", sans-serif;
+  color: #fff;
+}
+#aboutMe h2 {
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 10px;
+}
 /*/////  PORTFOLIO PAGE  /////*/
 #portCont {
   padding: 0;
@@ -137,13 +147,43 @@ body {
   /* transition: transform .3s; */
 }
 
-.projTitle span:hover {
+.projItem:hover span {
   background-color: #44C7BA;
   cursor: pointer;
   /* transition: transform .3s;
   transform: scale(1.1); */
 }
 
+/*//// project modal ////*/
+.modal-dialog {
+  margin-top: 75px;
+}
+
+.modal-content {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.modal-footer {
+  border: none;
+}
+
+#projVisitModal {
+  text-decoration: none;
+  padding: 0 10px;
+  margin: auto;
+  background-color: #fff;
+  color: #4989BA;
+  border: solid 3px #4989BA;
+  font-size: 1.5em;
+}
+
+#projVisitModal:hover {
+  margin: auto;
+  background-color: #44C7BA;
+  border: solid 3px #44C7BA;
+  color: #fff;
+  font-size: 1.5em;
+}
 
 /*/////  Footer  /////*/
 
