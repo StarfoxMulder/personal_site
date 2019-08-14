@@ -97,11 +97,19 @@ body {
   font-family: "Archivo Narrow", sans-serif;
   color: #fff;
 }
+
 #aboutMe h2 {
   letter-spacing: 3px;
   text-align: center;
   margin-top: 10px;
 }
+
+.aboutRow {
+  background-image: url("/assets/images/Us2.png")
+}
+
+#about-pic
+
 /*/////  PORTFOLIO PAGE  /////*/
 #portCont {
   padding: 0;
