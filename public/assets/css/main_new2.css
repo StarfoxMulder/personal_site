@@ -4,7 +4,8 @@ html {
 }
 
 body {
-  background: #2B516E;
+  /* background: #2B516E; */
+  background: #fff;
   padding: 0;
   min-height: 100%;
   height: 100%;
@@ -93,9 +94,11 @@ body {
 }
 
 /*/////  ABOUT PAGE  /////*/
+
 #aboutMe {
   font-family: "Archivo Narrow", sans-serif;
-  color: #fff;
+  color: #2B516E;
+  margin: 0 10%;
 }
 
 #aboutMe h2 {
@@ -104,8 +107,12 @@ body {
   margin-top: 10px;
 }
 
-.aboutRow {
-  background-image: url("/assets/images/Us2.png")
+#about-pic {
+  height: 500px;
+  background-size: cover;
+  background-image: url(/assets/images/Us2.png);
+  background-position: right;
+  border-radius: 100px;
 }
 
 #about-text {
@@ -122,26 +129,33 @@ body {
 #portfolio {
   font-family: "Archivo Narrow", sans-serif;
   color: #fff;
+  margin-top: 50px;
 }
 
 #portfolio h2 {
   letter-spacing: 3px;
   text-align: center;
   margin-top: 10px;
+  color: #2B516E;
 }
 
 #work-section {
   background-color: #fff;
-  padding: 0;
+  padding: 0 10%;
+}
+
+.projItem:hover {
+  cursor: pointer;
 }
 
 .projItem {
-  /* display: inline-block; */
-  /* Trying to position the project title - might need to remove if impacts other positioning */
+  /* border: 1px solid #2B516E; */
+  padding: 0;
 }
 
 .projItem img {
   width: 100%;
+  height: 100%;
 }
 
 .projTitle {
@@ -165,6 +179,14 @@ body {
   /* transition: transform .3s;
   transform: scale(1.1); */
 }
+
+/* #JPDevelopment .pic {
+  background-image: url(../images/JPD1.jpg)
+}
+
+#JPDevelopment:hover .pic {
+  background-image: url(../images/JPD1-V.jpg)
+} */
 
 /*//// project modal ////*/
 .modal-dialog {
@@ -220,7 +242,7 @@ footer {
 }
 
 /*//// Media Queries /////*/
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .projItem:nth-of-type(odd) {
     padding-right: 0;
   }
@@ -228,7 +250,7 @@ footer {
   .projItem:nth-of-type(even) {
     padding-left: 0;
   }
-}
+} */
 
 /*//// social icons /////*/
 #SocialImages {

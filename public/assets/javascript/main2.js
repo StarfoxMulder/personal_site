@@ -26,6 +26,8 @@ $(document).ready(function () {
     $('#projVisitModal').attr("href", url);
   });
 
+
+
   function getCookie(cookiename) {
     var cookiestring = RegExp("" + cookiename + "[^;]+").exec(document.cookie);
     return decodeURIComponent(
