@@ -105,6 +105,12 @@ body {
   letter-spacing: 3px;
   text-align: center;
   margin-top: 10px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid;
+  width: 62px;
 }
 
 #about-pic {
@@ -116,7 +122,7 @@ body {
 }
 
 #about-text {
-  font-size: 23px;
+  font-size: 20px;
 }
 
 #about-pic
@@ -137,6 +143,12 @@ body {
   text-align: center;
   margin-top: 10px;
   color: #2B516E;
+  font-weight: 700;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid;
+  width: 86px;
 }
 
 #work-section {
@@ -219,6 +231,25 @@ body {
   font-size: 1.5em;
 }
 
+.projTitleModal {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: 600;
+  font-size: 22pt;
+  line-height: 30pt;
+  color: #444;
+  margin-bottom: 0;
+}
+
+.projTechModal {
+  color: #919191;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: 400;
+  font-size: 18pt;
+  word-spacing: 2rem;
+}
+
+.projAboutModal {}
+
 /*/////  Footer  /////*/
 
 li>a {
@@ -228,11 +259,11 @@ li>a {
 footer {
   font-family: 'Poiret One', cursive;
   font-weight: 700;
-  background: #666;
+  background: #2B516E;
   color: #ccc;
   padding-top: 1%;
   clear: both;
-  border-top: 2px solid #5A947B;
+  border-top: 2px solid #44C7BA;
   font-size: 14px;
   text-align: right;
   bottom: 0px;
