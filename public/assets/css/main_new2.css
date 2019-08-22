@@ -246,9 +246,13 @@ body {
   font-weight: 400;
   font-size: 18pt;
   word-spacing: 2rem;
+  border-bottom: 1px solid #444;
 }
 
-.projAboutModal {}
+.projAboutModal {
+  font-size: 14.5pt;
+  color: #444;
+}
 
 /*/////  Footer  /////*/
 
