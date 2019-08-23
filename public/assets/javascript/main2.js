@@ -29,6 +29,7 @@ $(document).ready(function () {
   //Contact handler
   $('#contact-form').submit(function (e) {
     e.preventDefault();
+    var nameVal = $("#contact-form").find('input[name="name"]').val();
     var emailVal = $("#contact-form").find('input[name="email"]').val();
     var messageVal = $("#contact-form").find('input[name="message"]').val();
 
@@ -36,12 +37,13 @@ $(document).ready(function () {
       url: "https://jumprock.co/mail/JudeEmail",
       method: "POST",
       data: {
+        name: nameVal,
         email: emailVal,
         message: messageVal
       },
       dataType: "json"
     }).done(function (response) {
-      $('#success').addClass('expand');
+      // $('#success').addClass('expand');
       $('#contact-form').find("input[type=text], input[type=email], textarea").val("");
     });
   });

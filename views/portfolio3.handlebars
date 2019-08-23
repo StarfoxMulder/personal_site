@@ -111,11 +111,15 @@
         <h2>Contact</h2>
       </div>
       <div class="col-12 no-gutters" id="contact-section">
-        <div class="row contactRow">
+        <div class="row contactRow justify-content-center">
           {{!-- <form id="contact-form" action="https://jumprock.co/mail/JudeEmail" method="post"> --}}
-            <form id="contact-form">
+            <div class="col-12" id="tagline">
+              <p>Have a question or want to work together?</p>
+            </div>
+            <form id="contact-form" class="col-6">
+              <input type="text" name="name" placeholder="Name" id="name-field" />
               <input type="text" name="email" placeholder="Email Address" id="email-field" />
-              <input type="text" name="message" placeholder="Message" id="message-field" />
+              <textarea type="text" name="message" placeholder="Message" id="message-field"></textarea>
               <button type="submit">Send <i class="fal fa-paper-plane"></i></button>
             </form>
 

@@ -257,6 +257,7 @@ body {
   background-color: #fff;
   padding: 0 10%;
   font-family: "Archivo Narrow", sans-serif;
+  margin-top: 50px;
 }
 
 #contact h2 {
@@ -270,6 +271,32 @@ body {
   margin-right: auto;
   border-bottom: 3px solid;
   width: 86px;
+}
+
+#tagline p {
+  margin: auto;
+  font-size: 14.5pt;
+}
+
+#contact-form {
+  margin-top: 15px;
+}
+
+#contact-form input {
+  width: 100%;
+}
+
+#contact-form textarea {
+  width: 100%;
+}
+
+#contact-form button {
+  width: 100%;
+  background-color: #2B516E;
+  color: #fff;
+  font-size: 14.5pt;
+  height: 40px;
+  border: none;
 }
 
 /*/////  Footer  /////*/
