@@ -26,6 +26,42 @@ $(document).ready(function () {
     $('#projVisitModal').attr("href", url);
   });
 
+  //Contact handler
+  $('#contact-form').submit(function (e) {
+    e.preventDefault();
+    var emailVal = $("#contact-form").find('input[name="email"]').val();
+    var messageVal = $("#contact-form").find('input[name="message"]').val();
+
+    $.ajax({
+      url: "https://jumprock.co/mail/JudeEmail",
+      method: "POST",
+      data: {
+        email: emailVal,
+        message: messageVal
+      },
+      dataType: "json"
+    }).done(function (response) {
+      $('#success').addClass('expand');
+      $('#contact-form').find("input[type=text], input[type=email], textarea").val("");
+    });
+  });
+
+
+  // $('#contact-form').submit(function (e) {
+  //   e.preventDefault();
+
+  //   $.ajax({
+  //     url: "https://formspree.io/cjprestia@gmail.com",
+  //     method: "POST",
+  //     data: {
+  //       message: $('form').serialize()
+  //     },
+  //     dataType: "json"
+  //   }).done(function (response) {
+  //     $('#success').addClass('expand');
+  //     $('#contact-form').find("input[type=text], input[type=email], textarea").val("");
+  //   });
+  // });
 
 
   function getCookie(cookiename) {
