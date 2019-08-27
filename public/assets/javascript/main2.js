@@ -11,6 +11,28 @@ $(document).ready(function () {
       'slow');
   });
 
+  $("#navProjects").click(function (e) {
+    e.preventDefault();
+    $('html,body').animate({
+        scrollTop: $("#aboutMe").offset().top
+      },
+      'slow');
+  });
+  $("#navAbout").click(function (e) {
+    e.preventDefault();
+    $('html,body').animate({
+        scrollTop: $("#aboutMe").offset().top
+      },
+      'slow');
+  });
+  $("#navContact").click(function (e) {
+    e.preventDefault();
+    $('html,body').animate({
+        scrollTop: $("#aboutMe").offset().top
+      },
+      'slow');
+  });
+
   $('.projItem').click(function (event) {
     event.preventDefault();
     var e = $(this);
@@ -45,6 +67,11 @@ $(document).ready(function () {
     }).done(function (response) {
       // $('#success').addClass('expand');
       $('#contact-form').find("input[type=text], input[type=email], textarea").val("");
+      $('#emailGreeting').hide();
+      $('#emailSuccess').show();
+      $('#emailSuccess').fadeOut(3000, function () {
+        $('#emailSuccess').hide();
+      });
     });
   });
 

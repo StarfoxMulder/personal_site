@@ -11,6 +11,10 @@ body {
   height: 100%;
 }
 
+.hidden {
+  display: none;
+}
+
 /*///// Intro modal /////*/
 #home {
   height: calc(100vh + 53px);
@@ -92,6 +96,9 @@ body {
 .old-modal-section {
   font-family: 'Archivo Narrow', sans-serif;
 }
+
+/*///// Navbar /////*/
+
 
 /*/////  ABOUT PAGE  /////*/
 
@@ -273,9 +280,14 @@ body {
   width: 86px;
 }
 
+#tagline {
+  text-align: center;
+}
+
 #tagline p {
   margin: auto;
   font-size: 14.5pt;
+  text-align: center;
 }
 
 #contact-form {
@@ -284,10 +296,16 @@ body {
 
 #contact-form input {
   width: 100%;
+  font-size: 14.5pt;
 }
 
 #contact-form textarea {
   width: 100%;
+  font-size: 14.5pt;
+}
+
+#placeholder {
+  font-size: 14.5pt;
 }
 
 #contact-form button {

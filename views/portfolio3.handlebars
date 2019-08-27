@@ -22,6 +22,17 @@
       </div>
     </section>
   </section>
+  <ul class="nav justify-content-center">
+    <li class="nav-item" id="navProjects">
+      <a class="nav-link" href="#">Projects</a>
+    </li>
+    <li class="nav-item" id="navAbout">
+      <a class="nav-link" href="#">About</a>
+    </li>
+    <li class="nav-item" id="navContact">
+      <a class="nav-link" href="#">Contact</a>
+    </li>
+  </ul>
   <section class="container-fluid" id="portCont">
     <section class="row justify-content-center" id="aboutMe">
       <div class="col-2">
@@ -114,7 +125,11 @@
         <div class="row contactRow justify-content-center">
           {{!-- <form id="contact-form" action="https://jumprock.co/mail/JudeEmail" method="post"> --}}
             <div class="col-12" id="tagline">
-              <p>Have a question or want to work together?</p>
+              <p id="emailGreeting">Have a question or want to work together?</p>
+              <p id="emailSuccess" class="alert-success hidden">Thank you for reaching out! I will be in contact
+                with
+                you
+                shortly.</p>
             </div>
             <form id="contact-form" class="col-6">
               <input type="text" name="name" placeholder="Name" id="name-field" />
