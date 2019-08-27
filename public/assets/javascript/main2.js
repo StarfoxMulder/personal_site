@@ -6,7 +6,7 @@ $(document).ready(function () {
   $("#ViewMyWork").click(function (e) {
     e.preventDefault();
     $('html,body').animate({
-        scrollTop: $("#aboutMe").offset().top
+        scrollTop: $("#topNav").offset().top
       },
       'slow');
   });
@@ -14,7 +14,7 @@ $(document).ready(function () {
   $("#navProjects").click(function (e) {
     e.preventDefault();
     $('html,body').animate({
-        scrollTop: $("#aboutMe").offset().top
+        scrollTop: $("#portfolio").offset().top
       },
       'slow');
   });
@@ -28,7 +28,7 @@ $(document).ready(function () {
   $("#navContact").click(function (e) {
     e.preventDefault();
     $('html,body').animate({
-        scrollTop: $("#aboutMe").offset().top
+        scrollTop: $("#contact").offset().top
       },
       'slow');
   });
