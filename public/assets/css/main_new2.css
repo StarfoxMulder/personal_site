@@ -44,11 +44,17 @@ h2 {
   position: absolute;
 }
 
+.introDiv {
+  height: 100%;
+}
+
 .old-modal-dialog {
-  margin-top: 20%;
-  font-size: 2em;
+  /* margin-top: 35%; */
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 2rem;
   color: #fff;
-  position: absolute;
+  /* position: absolute; */
   z-index: 999999;
 }
 
@@ -56,6 +62,10 @@ h2 {
   background-color: transparent;
   border: none;
   text-align: center;
+}
+
+.old-modal-body>p {
+  font-size: 3.5rem;
 }
 
 .old-modal-footer {
@@ -84,7 +94,7 @@ h2 {
 */
 
 #ViewMyWork {
-  font-size: 1em;
+  font-size: 3.5rem;
   color: #F8FFFB;
   background-color: transparent;
   border: solid 2px #fff;
@@ -375,13 +385,9 @@ footer {
 }
 
 /*//// Media Queries /////*/
-/* @media (min-width: 768px) {
-  .projItem:nth-of-type(odd) {
-    padding-right: 0;
-  }
-
-  .projItem:nth-of-type(even) {
-    padding-left: 0;
+/* @media (max-width: 768px) and (orientation:portrait) {
+  .old-modal-dialog {
+    margin-top: 35%;
   }
 } */
 
