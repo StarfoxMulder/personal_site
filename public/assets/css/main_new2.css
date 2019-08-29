@@ -9,7 +9,7 @@ body {
   padding: 0;
   min-height: 100%;
   height: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .hidden {
@@ -155,12 +155,9 @@ h2 {
 
 #skillTable {
   width: 80%;
-  margin: auto;
 }
 
-.skillRow {
-  text-align: center;
-}
+.skillRow {}
 
 /*/////  PORTFOLIO PAGE  /////*/
 #portCont {
@@ -170,6 +167,7 @@ h2 {
 #portfolio {
   font-family: "Archivo Narrow", sans-serif;
   color: #fff;
+  margin: 0 10%;
   margin-top: 50px;
   padding-top: 50px;
 }
@@ -297,6 +295,7 @@ h2 {
   background-color: #fff;
   padding: 0 10%;
   font-family: "Archivo Narrow", sans-serif;
+  margin: 0 10%;
   margin-top: 50px;
   padding-top: 50px;
   min-height: 98vh;

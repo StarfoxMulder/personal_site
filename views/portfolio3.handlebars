@@ -23,11 +23,14 @@
     </section>
   </section>
   <ul class="nav justify-content-center" id="topNav">
-    <li class="nav-item" id="navProjects">
+    {{!-- <li class="nav-item" id="navProjects">
       <a class="nav-link" href="#">Projects</a>
-    </li>
+    </li> --}}
     <li class="nav-item" id="navAbout">
       <a class="nav-link" href="#">About</a>
+    </li>
+    <li class="nav-item" id="navProjects">
+      <a class="nav-link" href="#">Projects</a>
     </li>
     <li class="nav-item" id="navContact">
       <a class="nav-link" href="#">Contact</a>
@@ -41,9 +44,14 @@
       <div class="col-12 no-gutters" id="about-section">
         <div class="row aboutRow">
           <div class="col-12 col-lg-6" id="about-text">
-            <p>Four years ago, I struggled with managing report data until my friend Kyle introduced me to Excel Macros. With my love of solving problems through innovative solutions, I found perfect harmony in software programming. I started creating automated workbooks and holding training sessions on Excel for my co-workers. I made Excel fun. </p>
-            <p>Soon I was teaching myself front-end languages at 3am, ultimately leading me to attending The Coding Bootcamp at UNC Chapel Hill.</p>
-            <p>Since graduating, I've worked in development positions at Lenovo and Verizon, continuing to expand my skills</p>
+            <p>Four years ago, I struggled with managing report data until my friend Kyle introduced me to Excel
+              Macros. With my love of solving problems through innovative solutions, I found perfect harmony in
+              software programming. I started creating automated workbooks and holding training sessions on Excel for
+              my co-workers. I made Excel fun. </p>
+            <p>Soon I was teaching myself front-end languages at 3am, ultimately leading me to attending The Coding
+              Bootcamp at UNC Chapel Hill.</p>
+            <p>Since graduating, I've worked in development positions at Lenovo and Verizon, continuing to expand my
+              skills</p>
             <p>I primarily work in HTML, CSS, and JavaScript</p>
             <p>But I'm not afraid to challenge myself with new languages
               and frameworks. Below you'll see projects utilizing:
@@ -137,12 +145,10 @@
           {{!-- <form id="contact-form" action="https://jumprock.co/mail/JudeEmail" method="post"> --}}
             <div class="col-12" id="tagline">
               <p id="emailGreeting">Have a question or want to work together?</p>
-              <p id="emailSuccess" class="alert-success hidden">Thank you for reaching out! I will be in contact
-                with
-                you
-                shortly.</p>
+              <p id="emailSuccess" class="alert-success hidden">Thank you for reaching out! I will be in contact with
+                you shortly.</p>
             </div>
-            <form id="contact-form" class="col-6">
+            <form id="contact-form" class="col-10">
               <input type="text" name="name" placeholder="Name" id="name-field" />
               <input type="text" name="email" placeholder="Email Address" id="email-field" />
               <textarea type="text" name="message" placeholder="Message" id="message-field"></textarea>
