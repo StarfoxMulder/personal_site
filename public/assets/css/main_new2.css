@@ -195,7 +195,7 @@ h2 {
 
 #work-section {
   background-color: #fff;
-  padding: 0 10%;
+  padding: 0 3%;
 }
 
 .projItem:hover {
@@ -245,6 +245,7 @@ h2 {
 /*//// project modal ////*/
 .modal-dialog {
   margin-top: 20%;
+  max-width: 750px;
 }
 
 .modal-content {
@@ -276,7 +277,7 @@ h2 {
 .projTitleModal {
   font-family: 'Archivo Narrow', sans-serif;
   font-weight: 600;
-  font-size: 22pt;
+  font-size: 28pt;
   line-height: 30pt;
   color: #444;
   margin-bottom: 0;
@@ -292,7 +293,7 @@ h2 {
 }
 
 .projAboutModal {
-  font-size: 14.5pt;
+  font-size: 17.5pt;
   color: #444;
 }
 
@@ -409,6 +410,7 @@ footer {
   #work-section {
     padding: 0 15px;
   }
+
 }
 
 /*//// social icons /////*/
