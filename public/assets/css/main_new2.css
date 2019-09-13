@@ -154,9 +154,9 @@ h2 {
 #about-pic {
   height: 500px;
   background-size: cover;
-  background-image: url(/assets/images/Us2.png);
+  background-image: url(/assets/images/cruise.jpeg);
   background-position: right;
-  border-radius: 100px;
+  border-radius: 45px;
 }
 
 #about-text {
@@ -331,7 +331,7 @@ h2 {
 
 #tagline p {
   margin: auto;
-  font-size: 14.5pt;
+  font-size: 19.5pt;
   text-align: center;
 }
 
@@ -341,24 +341,24 @@ h2 {
 
 #contact-form input {
   width: 100%;
-  font-size: 14.5pt;
+  font-size: 17.5pt;
 }
 
 #contact-form textarea {
   width: 100%;
-  font-size: 14.5pt;
+  font-size: 17.5pt;
   height: 250px;
 }
 
 #placeholder {
-  font-size: 14.5pt;
+  font-size: 17.5pt;
 }
 
 #contact-form button {
   width: 100%;
   background-color: #2B516E;
   color: #fff;
-  font-size: 14.5pt;
+  font-size: 17.5pt;
   height: 40px;
   border: none;
 }
