@@ -163,6 +163,14 @@ h2 {
   font-size: 20px;
 }
 
+.fa-github {
+  font-size: 26px;
+}
+
+.fa-github:hover {
+  color: #44C7BA;
+}
+
 #skillTable {
   width: 80%;
 }
